@@ -3,6 +3,7 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Redirect, useLocation } from "react-router-dom";
 import AdminSignInUI from "./AdminSignInUI";
+import "./AdminSignIn.scss";
 
 export default function AdminSignIn() {
   const isLoggedIn = useSelector((state) => state.adminAuth.isLoggedIn);
@@ -33,7 +34,7 @@ export default function AdminSignIn() {
     return <Redirect to={from} />;
   }
   return (
-    <div>
+    <div className="admin-signin">
       <AdminSignInUI handleLogin={handleLogin} />
     </div>
   );

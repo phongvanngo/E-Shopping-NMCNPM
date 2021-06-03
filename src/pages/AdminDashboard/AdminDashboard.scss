@@ -6,6 +6,9 @@ $height-navbar: 70px;
 $primary-color: var(--admin-color-1);
 
 #admin-dashboard-container {
+  font-family: -apple-system, BlinkMacSystemFont, "Fira Sans", "Poppins",
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
   #admin-sidebar {
     background: var(--admin-color-1);
     width: $width-collapse-sidebar;
