@@ -1,4 +1,5 @@
-import PageLoader from "src/common/PageLoader/PageLoader";
+// import PageLoader from "src/common/PageLoader/PageLoader";
+import PageLoader from "";
 import React from "react";
 import AppRoutes from "routes";
 import "./App.css";
