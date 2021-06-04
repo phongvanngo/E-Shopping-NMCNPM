@@ -1,7 +1,7 @@
-import PageLoader from 'common/PageLoader/PageLoader';
-import React from 'react';
-import AppRoutes from 'routes';
-import './App.css';
+import PageLoader from "src/common/PageLoader/PageLoader";
+import React from "react";
+import AppRoutes from "routes";
+import "./App.css";
 
 function App() {
   return (
